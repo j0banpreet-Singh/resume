@@ -65,26 +65,25 @@ export const projectsData = [
     title: "404 Fixers",
     description:
       "404 fixers which aims to provide developers share their masterpiece projects and help other developerst tp learn from the best",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Grafbase","GraphQL"],
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Grafbase", "GraphQL"],
     imageUrl: fixers,
-    link:"https://nexttype-three.vercel.app/"
+    link: "https://nexttype-three.vercel.app",
   },
   {
     title: "PizzaApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "website where you can Satisfy cravings with ease: Order, customize, and enjoy delicious pizzas!",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: pizza,
-    link:"https://pizzahut-bice.vercel.app"
+    link: "https://pizzahut-bice.vercel.app",
   },
   {
-    title: "Word Analytics",
+    title: "React Admin Panel",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Efficient control: Manage data seamlessly through a dynamic React admin panel.",
+    tags: ["React", "Firebase", "css"],
     imageUrl: dashboard,
-    link:"https://nexttype-three.vercel.app/"
-
+    link: "https://github.com/j0banpreet-Singh/jobanAdminPanel",
   },
 ] as const;
 
@@ -98,14 +97,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
